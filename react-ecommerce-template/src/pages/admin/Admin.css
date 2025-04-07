@@ -1,0 +1,196 @@
+/* src/pages/admin/Admin.css */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody+tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table .table {
+    background-color: #fff;
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+
+.page-item {
+    margin: 0 0.25rem;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.page-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.admin-dashboard {
+    padding: 2rem;
+}
+
+.admin-dashboard h1 {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    /* Thêm khoảng cách phía trên tiêu đề */
+}
+
+.admin-dashboard .search-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.admin-dashboard .search-bar input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+}
+
+.admin-dashboard .search-bar button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.admin-dashboard .search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* src/pages/admin/Admin.css */
+.add-product {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-product h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.add-product form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.add-product input,
+.add-product textarea,
+.add-product select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+}
+
+.add-product button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.add-product button:hover {
+    background-color: #0056b3;
+}
+
+.edit-product {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.edit-product h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.edit-product form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.edit-product input,
+.edit-product textarea,
+.edit-product select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+}
+
+.edit-product button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.edit-product button:hover {
+    background-color: #0056b3;
+}

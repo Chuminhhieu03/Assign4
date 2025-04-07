@@ -1,0 +1,14 @@
+Dựng dần dần các chức năng theo thứ tự và theo đúng services con
+MySql
+customer
+
+cart
+
+order
+payment
+shipment
+
+MonggoDB
+book
+mobile
+clothes

@@ -1,0 +1,50 @@
+.view-product {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 10rem;
+    /* Thêm khoảng cách phía trên để tránh dính vào navbar */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.view-product h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.view-product p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.view-product p strong {
+    color: #000;
+}
+
+.view-product .category-info {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    border-radius: 0.5rem;
+}
+
+.view-product .rating {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.view-product .rating p {
+    font-size: 1.2rem;
+    color: #ff9800;
+}
+
+.view-product .rating p strong {
+    color: #ff5722;
+}

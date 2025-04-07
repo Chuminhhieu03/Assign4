@@ -1,0 +1,27 @@
+/* src/products/detail/ProductDetail.css */
+.comments-section {
+    margin-top: 1rem;
+  }
+  
+  .comment {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+    margin-bottom: 1rem;
+  }
+  
+  .add-comment {
+    margin-top: 1rem;
+  }
+  
+  .add-comment textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+  }
+  
+  .add-comment button {
+    margin-top: 0.5rem;
+  }
